@@ -1,9 +1,9 @@
 [project]
 name = "airplane_mode"
 authors = [
-    { name = "Asha Rawat", email = "asharawat23@navgurukul.org"}
+    { name = "asha rawat", email = "asharawat23@navgurukul.org"}
 ]
-description = "A custom app for handling airplane mode-related operations and settings."
+description = "airplane mode app"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

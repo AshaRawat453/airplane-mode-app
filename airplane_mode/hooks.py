@@ -1,7 +1,7 @@
 app_name = "airplane_mode"
-app_title = "Airplane Mode App"
-app_publisher = "Asha Rawat"
-app_description = "A custom app for handling airplane mode-related operations and settings."
+app_title = "Airplane Mode"
+app_publisher = "asha rawat"
+app_description = "airplane mode app"
 app_email = "asharawat23@navgurukul.org"
 app_license = "mit"
 # required_apps = []

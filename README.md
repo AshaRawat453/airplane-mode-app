@@ -1,6 +1,6 @@
-## Airplane Mode App
+## Airplane Mode
 
-A custom app for handling airplane mode-related operations and settings.
+airplane mode app
 
 #### License
 
