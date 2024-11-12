@@ -6,3 +6,12 @@
 
 // 	},
 // });
+frappe.ui.form.on('Airline', {
+    refresh: function(frm) {
+        // Check if the website field has a value
+        if (frm.doc.website) {
+            // Add a web link to the official airline website
+            frm.add_web_link(__('Visit Website'), frm.doc.website);
+        }
+    }
+});

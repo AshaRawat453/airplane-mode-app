@@ -10,6 +10,7 @@
   "section_break_phav",
   "airplane",
   "is_published",
+  "gate_number",
   "column_break_skgf",
   "status",
   "route",
@@ -133,6 +134,13 @@
    "fieldname": "route",
    "fieldtype": "Data",
    "label": "Route"
+  },
+  {
+   "fetch_from": "airplane.gate_number",
+   "fieldname": "gate_number",
+   "fieldtype": "Link",
+   "label": "Gate Number",
+   "options": "Airplane"
   }
  ],
  "has_web_view": 1,
@@ -145,26 +153,13 @@
    "link_fieldname": "flight"
   }
  ],
- "modified": "2024-09-26 16:14:03.764166",
+ "modified": "2024-11-07 17:09:05.504458",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Flight",
  "naming_rule": "Expression",
  "owner": "Administrator",
- "permissions": [
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "System Manager",
-   "share": 1,
-   "write": 1
-  }
- ],
+ "permissions": [],
  "route": "Flight",
  "sort_field": "modified",
  "sort_order": "DESC",

@@ -1,0 +1,2 @@
+Hello System Manager,   
+Please be informed that flight {{doc.airplane}} is scheduled to depart in 24 hours.

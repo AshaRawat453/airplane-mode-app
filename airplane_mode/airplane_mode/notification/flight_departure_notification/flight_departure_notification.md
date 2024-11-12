@@ -1,1 +1,1 @@
-Add your message here
+Flight {{doc.airplane}} Departs in 24 hours!

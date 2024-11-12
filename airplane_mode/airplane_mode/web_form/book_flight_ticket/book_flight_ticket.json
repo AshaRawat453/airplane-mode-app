@@ -18,17 +18,17 @@
  "list_columns": [],
  "login_required": 0,
  "max_attachment_size": 0,
- "modified": "2024-09-27 00:09:35.772361",
+ "modified": "2024-10-08 11:56:05.841751",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "book-flight-ticket",
  "owner": "Administrator",
  "published": 1,
- "route": "book_flight_ticket_web_form ",
+ "route": "book-flight-ticket-web-form 1",
  "show_attachments": 0,
  "show_list": 0,
  "show_sidebar": 0,
- "title": "Book Flight Ticket Web Form ",
+ "title": "Book Flight Ticket web form 1",
  "web_form_fields": [
   {
    "allow_read_on_all_link_options": 0,
@@ -60,6 +60,7 @@
   },
   {
    "allow_read_on_all_link_options": 0,
+   "default": "5000000",
    "fieldname": "flight_price",
    "fieldtype": "Currency",
    "hidden": 0,
@@ -68,7 +69,7 @@
    "max_value": 0,
    "precision": "",
    "read_only": 1,
-   "reqd": 1,
+   "reqd": 0,
    "show_in_filter": 0
   }
  ]
